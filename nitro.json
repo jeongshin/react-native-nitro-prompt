@@ -1,0 +1,23 @@
+{
+  "cxxNamespace": ["nitroprompt"],
+  "ios": {
+    "iosModuleName": "NitroPrompt"
+  },
+  "android": {
+    "androidNamespace": ["nitroprompt"],
+    "androidCxxLibName": "nitroprompt"
+  },
+  "autolinking": {
+    "NitroPrompt": {
+      "ios": {
+        "language": "swift",
+        "implementationClassName": "NitroPrompt"
+      },
+      "android": {
+        "language": "kotlin",
+        "implementationClassName": "NitroPrompt"
+      }
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
